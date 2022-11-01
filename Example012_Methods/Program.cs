@@ -41,15 +41,29 @@ int year = Method3();
 
 
 //Вид 4
+//Цикл while
+//string Method4(int count, string text)
+//{
+//    int i = 0;
+//    string result = string.Empty;
+//
+//    while (i < count)
+//    {
+//        result = result + text;
+//        i++;
+//    }
+//    return result;
+//}
+//string res = Method4(10, "qwer");
+//Console.WriteLine(res);
+
+//Цикл for
 string Method4(int count, string text)
 {
-    int i = 0;
     string result = string.Empty;
-
-    while (i < count)
+    for (int i = 0; i < count; i++)
     {
         result = result + text;
-        i++;
     }
     return result;
 }
